@@ -63,34 +63,36 @@ body, html {
 
 #main-frame{
 	width: 100%;
-	height: 1000px;
+	height: auto;
 	background-color: tomato;
 }
 
 
 .inner-special{
-	width: 80%;
-	height: 700px;
+	width: 85%;
+	height: auto;
 	background-color: white;
 	border-radius: 6px;
 	margin-right: auto;
 	margin-left: auto;
 	margin-top: -14%;
 	padding: 3em;
+	border-top: 30px solid tomato;
+  border-right: 15px solid black;
+  border-left: 15px solid black;
 }
 
 
 .info-section{
 	width: 100%;
-	height: 500px;
-	border: solid tomato;
+	height: auto;
 	padding: 2em;
 }
 
 
 #contain-me{
 	width: 100%;
-	height: 300px;
+	height: auto;
 }
 
 .me-box{
@@ -99,13 +101,18 @@ body, html {
 	text-align: center;
   color: tomato;
   font-family: sans-serif;
-  letter-spacing: 6px;
+  font-size: 13px;
+  line-height: 30px;
+  width: 100%;
+  height: auto;
 }
 
 .under-line{
 	height: 1px;
 	width: 100%;
-	border: dotted tomato;
+	border: solid 1px tomato;
+	margin-right: auto;
+	margin-left: auto;
 }
 
 
@@ -117,10 +124,25 @@ body, html {
   border-top: 20px solid ;
   margin-left: auto;
   margin-right: auto;
-  margin-top: -8em;
+  margin-top: 1em;
 }
 
+.meme-info{
+	font-size: 18px;
+	letter-spacing: 6px;
+}
 
+.about-me{
+	width: 50%;
+	margin-right: auto;
+	margin-left: auto;
+	font-size: 17px;
+
+}
+
+.code-pic{
+	width: 100%;
+}
 
 
 
