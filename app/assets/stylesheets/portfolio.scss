@@ -58,6 +58,7 @@ body, html {
 
 /*
 @media (min-width: 700px) { */
+
 /*------------------------------------------Main Section Begins----------------------------------------------------*/
 
 
@@ -71,7 +72,7 @@ body, html {
 .inner-special{
 	width: 85%;
 	height: auto;
-	background-color: white;
+	background-color: #424242;
 	border-radius: 6px;
 	margin-right: auto;
 	margin-left: auto;
@@ -82,6 +83,7 @@ body, html {
   border-left: 15px solid black;
 }
 
+/*......................................... About Me Section ......................................................*/
 
 .info-section{
 	width: 100%;
@@ -140,13 +142,94 @@ body, html {
 
 }
 
-.code-pic{
+#pic{
 	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+	height: auto;
+	text-align: center;
 }
 
+.code-pic{
+	width: 300px;
+	max-width: 100%;
+  display: inline-block;
+  padding: 2em;
+}
+
+.skill-box{
+	width: 100%;
+	height: auto;
+	background-color: #424242;
+	border-radius: 5px;
+	padding: 2px;
+	border-left: 20px solid;
+  border-top: 20px solid tomato;
+  border-right: 20px solid;
+}
+
+.skills-header{
+	text-align: center;
+	color: white;
+}
+
+.skills{
+	color: tomato;
+	text-align: center;
+
+}
+
+/*............................................... Project Section ....................................*/
+
+.project-section{
+	width: 100%;
+	height: auto;
+	padding: 2em;
+}
+
+.project-header{
+	text-align: center;
 
 
+}
 
+.project-chain-1, .project-chain-2{
+	width: 800px;
+	height: 340px;
+	border: solid;
+	margin-bottom: 20px;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 1em;
+}
+
+.p1{
+	width: 375px;
+	height: 300px;
+	border: solid tomato;
+	float: right;
+	
+}
+
+.p2{
+	width: 375px;
+	height: 300px;
+	border: solid yellow;
+}
+
+.p3{
+	width: 375px;
+	height: 300px;
+	border: solid tomato;
+	float: right;
+	
+}
+
+.p4{
+	width: 375px;
+	height: 300px;
+	border: solid yellow;
+}
 
 
 
