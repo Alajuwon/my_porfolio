@@ -136,10 +136,10 @@ body, html {
 
 .about-me{
 	width: 100%;
-	margin-right: auto;
-	margin-left: auto;
-	font-size: 18px;
+	font-size: 100%;
 	color: white;
+	font-size: 18px;
+
 
 }
 
@@ -186,7 +186,8 @@ body, html {
 .project-section{
 	width: 100%;
 	height: auto;
-	padding: 2em;
+	display: block;
+	zoom: 1;
 }
 
 .project-header{
@@ -195,30 +196,34 @@ body, html {
 	margin-bottom: 3em;
 }
 
-.project-chain-1, .project-chain-2{
-	width: 100%;
-	height: 340px;
-	margin-bottom: 20px;
-	margin-right: auto;
-	margin-left: auto;
-	padding: 1em;
-}
-
-.p1{
-	width: 45%;
-	height: 300px;
-	border: solid tomato;
-	float: right;
-	margin-right: auto;
-	margin-left: auto;
-}
-
 .pc-header{
 	text-align: center;
 	color: white;
-	padding: 3em;
+	padding: 80px;
 	font-family: sans-serif;
+	font-size: 100%;
 }
+
+.p1{
+	width: 48%;
+	height: 100%;
+	border: solid tomato;
+	list-style: none;
+	font-size: 100%;
+	margin-bottom: 50px;
+}
+
+.p2{
+	width: 48%;
+	height: 100%;
+	border: solid tomato;
+	list-style: none;
+	font-size: 100%;
+	float: right;
+	margin-bottom: 50px;
+}
+
+
 
 #after-math:hover{
 	color: tomato;
@@ -227,29 +232,7 @@ body, html {
 	font-size: 100%;
 }
 
+.project-pic{
+	width: 100%
 
-
-.p2{
-	width: 45%;
-	height: 300px;
-	border: solid yellow;
 }
-
-
-
-.p3{
-	width: 45%;
-	height: 300px;
-	border: solid tomato;
-	float: right;
-	
-}
-
-.p4{
-	width: 45%;
-	height: 300px;
-	border: solid yellow;
-}
-
-
-
