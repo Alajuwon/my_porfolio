@@ -187,7 +187,13 @@ body, html {
 	width: 100%;
 	height: auto;
 	display: block;
-	zoom: 1;
+}
+
+#project-contain{
+	width: 100%;
+	height: 790px;
+  overflow: hidden;
+
 }
 
 .project-header{
@@ -206,8 +212,6 @@ body, html {
 
 .p1{
 	width: 48%;
-	height: 100%;
-	border: solid tomato;
 	list-style: none;
 	font-size: 100%;
 	margin-bottom: 50px;
@@ -215,15 +219,12 @@ body, html {
 
 .p2{
 	width: 48%;
-	height: 100%;
-	border: solid tomato;
 	list-style: none;
 	font-size: 100%;
 	float: right;
 	margin-bottom: 50px;
 }
-
-
+ 
 
 #after-math:hover{
 	color: tomato;
@@ -233,6 +234,42 @@ body, html {
 }
 
 .project-pic{
-	width: 100%
+	width: 100%;
+	border-radius: 4em;
+	height: 370px;
 
 }
+
+
+.business-section{
+	width: 100%;
+	height: 1000px;
+	background-color: white;
+}
+
+
+.business-special-1{
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
